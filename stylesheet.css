@@ -28,6 +28,9 @@ body{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 
 .navbar a{
@@ -38,6 +41,8 @@ body{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
 }
 
 .navbar a:hover{
@@ -67,6 +72,14 @@ body{
     font-weight: 700;
 }
 
+.home-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+}
+
+.home-content h3 span{
+    color: #9b90f1;
+}
+
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
@@ -84,24 +97,24 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #9b90f1;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #9b90f1;
     text-decoration: none;
     margin: 30px 15px 30px 0;
 }
 
 .home-sci a:hover{
-    background: #0ef;
+    background: #9b90f1;
     color: #081b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #9b90f1;
 }
 
 .btn-box{
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #9b90f1;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -111,7 +124,8 @@ body{
 }
 
 .btn-box:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 15px cyan, 0 0 25px cyan,
-    0 0 50px cyan, 0 0 50px cyan
+    box-shadow: 0 0 5px #9b90f1,
+    0 0 15px #9b90f1, 0 0 25px #9b90f1,
+    0 0 50px #9b90f1, 0 0 50px #9b90f1
 }
+
